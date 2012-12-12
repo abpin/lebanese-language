@@ -1,4 +1,4 @@
-// Copyrights Joseph Khoury 2010, Lebanese Language Institute; version v0.2 April 22 2010
+// Copyrights Joseph Khoury 2010, Lebanese Language Institute; version v0.3 Dec 12 2012
 if(typeof(lebaneseKbd) == 'undefined'){var lebaneseKbd = { notloaded: true, active: false, init:function(){if(typeof(jQuery)!='function'){var script=document.createElement("script");script.type="text/javascript";script.src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js";
 document.body.appendChild(script)}; var lbdiv=document.createElement("div");lbdiv.innerHTML="Lebanese ON";lbdiv.id="lebanesekbstatus";document.body.appendChild(lbdiv);
 lebaneseKbd._loadlb();},_loadlb : function(){if (typeof(jQuery)!='function'){setTimeout(function(){ lebaneseKbd._loadlb();},250)} 
