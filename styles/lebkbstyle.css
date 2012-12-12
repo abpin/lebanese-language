@@ -1,6 +1,3 @@
-#lebanesekbstatus:hover {
-    left:5px;
-}
 #lebanesekbstatus{
 box-shadow: 1px 1px 4px #777;
 border-radius: 0px 0px 4px 4px;
@@ -19,5 +16,11 @@ transition: all 1s;
 -webkit-transition: all 1s;
 -o-transition: all 1s; 
 }
-.lebkbg{background-color: #45973E;}
-.lebkbr{background-color: #F80000;}
+#lebanesekbstatus:hover {
+    left:5px;
+}
+
+.lebkbg{background-color: #45973E;
+}
+.lebkbr{background-color: #F80000;
+}
