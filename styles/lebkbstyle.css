@@ -1,0 +1,23 @@
+#lebanesekbstatus:hover {
+    left:5px;
+}
+#lebanesekbstatus{
+box-shadow: 1px 1px 4px #777;
+border-radius: 0px 0px 4px 4px;
+width: 51px;
+position: fixed;
+left: -51px;
+top: 0px;
+cursor: pointer;
+z-index: 9999;
+font-size: 8px;
+color: rgb(1, 1, 17);
+padding:2px 5px;
+font-family:Georgia,Arial;
+transition: all 1s;
+-moz-transition: all 1s; 
+-webkit-transition: all 1s;
+-o-transition: all 1s; 
+}
+.lebkbg{background-color: #45973E;}
+.lebkbr{background-color: #F80000;}
